@@ -92,7 +92,7 @@ Known Issues
     1. Install TTMP Discord Bot in client and enter any singleplayer world.
     2. Run `/discord collectLocalization <Your desired locale>`.
     3. Copy the content of `localizations_collected.json`, and paste it into `localizations.json` in dedicated server.
-* Dedicated server will stay opened even after server is shutted down normally. It will log nothing, and be closed in few minutes afterwards.
+* Dedicated server will stay opened even after server is shutted down normally. It logs nothing until closed in few minutes afterwards.
   * It's fine to just ignore and close it.
 * Name of some unicode emojis doesn't match between discord, like `:regional_indicator_f:`.
 
