@@ -10,7 +10,7 @@ Most notable feature includes:
 * Flexible management/usage over multiple text channels
 * Extremely powerful scripting support capable of creating any kind of bot commands
   * As well as ability to change every bot commands to your taste
-  * ...And build even more complex system with Forge event subscriber, all of this with just JavaScript!
+  * ...And build even more complex system using Forge events, all of this with just JavaScript!
 
 <br>
 
