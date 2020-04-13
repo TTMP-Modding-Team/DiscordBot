@@ -1,0 +1,11 @@
+modLoader="javafml"
+loaderVersion="[28,)"
+[[mods]]
+modId="ttmpdiscordbot"
+version="${file.jarVersion}"
+displayName="TTMP Discord Bot"
+credits="None"
+authors="Tictim"
+description='''
+What is this Tictim. What the broken shitstain is this
+'''
