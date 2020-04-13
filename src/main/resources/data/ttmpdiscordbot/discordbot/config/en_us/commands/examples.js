@@ -14,12 +14,13 @@ function commands(){ // Commands are fetched by function commands() in top level
 			/*
 			 * Function is what this command does when executed. Java classes can be used. (see https://docs.oracle.com/javase/8/docs/technotes/guides/scripting/prog_guide/javascript.html)
 			 * But note that, since deobfuscated name is not accessible on runtime (since forge on 1.13+), you can't use class/method name forge uses OR name provided by Mojang.
-			 * Because coding with obfuscated name is not a fun experience, TTMP Discord Bot provides wrapper for frequently used classes, like Player, World, Minecraft Server, and so on. See TTMP Discord Bot on GitHub (TODO). You can also request support for another Minecraft classes you want.
+			 * Because coding with obfuscated name is not a fun experience, TTMP Discord Bot provides wrapper for frequently used classes, like Player, World, Minecraft Server, and so on.
+			 * See TTMP Discord Bot on GitHub (https://github.com/TTMP-Modding-Team/DiscordBot). You can also request support for another Minecraft classes you want.
 			 */
 			'function': function(context){
 				/*
 				 * Context contains information of sender, passed arguments, and some functions for utility.
-				 * You can see full reference from GitHub (TODO).
+				 * You can see full reference from GitHub (https://github.com/TTMP-Modding-Team/DiscordBot/blob/master/src/main/java/tictim/ttmpdiscordbot/api/botcommand/BotCommandContext.java).
 				 */
 				context.respond('Pong!') // Respond to sender
 			}

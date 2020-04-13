@@ -18,12 +18,13 @@ function commands(){
 			/*
 			 * 커맨드가 실행되었을 때 작동하는 코드입니다. Java의 클래스 또한 사용될 수 있습니다. (https://docs.oracle.com/javase/8/docs/technotes/guides/scripting/prog_guide/javascript.html 참조)
 			 * 하지만 마인크래프트 클래스의 경우 게임 실행 시 복호화된 이름을 사용하지 않기 때문에 (1.13+ 포지), 마인크래프트의 클래스/메소드의 경우 포지가 사용하는 이름도 Mojang이 공식으로 배포한 이름도 사용할 수 없습니다.
-			 * 암호화된 이름을 사용하는 것은 매우 즐겁지 않기 때문에, TTMP 디스코드 봇은 자주 사용되는 클래스, 예를 들어 플레이어, 월드, 서버 등의 Wrapper를 제공합니다. TTMP 디스코드 봇의 GitHub 레포지토리를 참조하십시오 (TODO). 여러분이 원하는 마인크래프트 클래스의 지원을 요청할 수도 있습니다.
+			 * 암호화된 이름을 사용하는 것은 매우 즐겁지 않기 때문에, TTMP 디스코드 봇은 자주 사용되는 클래스, 예를 들어 플레이어, 월드, 서버 등의 Wrapper를 제공합니다.
+			 * TTMP 디스코드 봇의 GitHub 레포지토리를 참조하십시오 (https://github.com/TTMP-Modding-Team/DiscordBot). 여러분이 원하는 마인크래프트 클래스의 지원을 요청할 수도 있습니다.
 			 */
 			'function': function(context){
 				/*
 				 * Context는 발신자의 정보, 매개변수, 그리고 유틸리티 함수를 포함합니다.
-				 * GitHub에서 레퍼런스를 확인할 수 있습니다 (TODO).
+				 * GitHub에서 레퍼런스를 확인할 수 있습니다 (https://github.com/TTMP-Modding-Team/DiscordBot/blob/master/src/main/java/tictim/ttmpdiscordbot/api/botcommand/BotCommandContext.java).
 				 */
 				context.respond('Pong!') // 발신자에게 응답
 			}
